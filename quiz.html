@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="Mountains.svg">
+       <link href="main.css" rel="stylesheet">
+        <link href="Universal.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap" rel="stylesheet">
+        <style>
+            body {
+    text-align: center;
+  
+}
+#form {
+    display: inline-block;
+    border-style: solid;
+    padding: 20px;
+    margin-top: 45px;
+}
+
+        </style>
+    </head>
+<body>
+<main>
+<div ><a href="index.html"><img class="logo" src="Mountains.svg" title="Vector Peaks" alt="Logo"> </div></a>
+    <nav>
+        <ul>
+            <li><a href="peaks.html" title="The Peak District"> Peaks</a> </li>
+            <li><a  href="lakes.html" title="The Lake District"> Lakes</a> </li>
+            <li><a  href="Snowdonia.html" title="The Snowdonian National Park"> Snowdonia</a></li>
+        </ul>
+    </nav>
+<div id="form">
+    <form name="Quiz">
+        <ol>
+          <label for="name"><p>Enter your name: </p></label
+          ><br />
+  
+          <input
+            type="text"
+            name="name"
+            id="user"
+            size="30"
+            placeholder="Name"
+            required
+          />
+  
+          <p>When was the Peak District created?</p>
+          <input type="radio" name="date" value="1951" />
+          <label for="1951">1951</label>
+          <br />
+          <input type="radio" name="date" value="1912" />
+          <label for="1912">1912</label
+          ><br />
+          <input type="radio" name="date" value="1875" />
+          <label for="1875">1875</label
+          ><br />
+  
+          <label for="Height"><p>Approximately how high is Snowdonia?</p></label
+          ><br />
+          <input type="number" name="Height" min="100" max="3000" step="50" />
+  
+          <br />
+          <p>How many lake are there in the Lake District?</p>
+          <input type="radio" name="lakes" value="78" />
+          <label for="78">78</label>
+          <br />
+  
+          <input type="radio" name="lakes" value="107" />
+          <label for="107">107</label
+          ><br />
+  
+          <input type="radio" name="Lake" value="16" />
+          <label for="16">16</label ><br /><br />
+  
+          <p>When was The Mass Trespass?</p>
+          <input type="radio" name="Tresspass" value="1920" />
+          <label for="1920">1920</label>
+          <br />
+          <input type="radio" name="Tresspass" value="1932" />
+          <label for="1932">1932</label
+          ><br />
+          <input type="radio" name="Tresspass" value="1902" />
+          <label for="1902">1902</label>
+          <br /><br />
+  
+        </ol>
+      </form>
+      <script src="b.js"></script>
+      <br />
+      <button type="button" onclick="checkAnswers();">Submit</button>
+    </div>
+      <script src="script.js"></script>
+
+   
+</main>
+
+</body>
+
+
+</html>

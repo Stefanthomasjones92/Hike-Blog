@@ -1,0 +1,97 @@
+main{
+    max-width: 960px;
+    margin: auto;
+    padding: 10px;
+}
+
+/* nav */
+nav li{
+    display: inline;
+    float: cem;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+nav ul li a {
+    font-family: 'Archivo', sans-serif;  
+    font-size: 1 em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--grey);
+}
+nav ul a::before {
+    content: "//";
+    letter-spacing: 4px;
+    color: var(--red);
+    font-weight: 900;
+    font-size: larger;
+    letter-spacing: 0px;
+    margin-right: 0px;
+}
+nav a:hover {
+    color:var(--red) 
+ }
+ 
+ .logo {
+    max-height: 80px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 20px;
+ }
+ .active{
+    color:var(--red)
+}
+/* Quiz button */
+.quiz{
+  background-color: var(--green);
+  position: fixed;
+  bottom: 0;
+  margin: 15px;
+
+  border-radius: 10px;
+  text-align: center;
+  
+}
+.quiz p {
+    color: aliceblue;
+    margin: 0px;
+    padding: 15px;
+}
+.quiz p:hover{
+    font-size: x-large;
+
+}
+
+h2:before {
+    content: "--";
+    letter-spacing: 4px;
+    color: #be1622;
+    font-weight: 900;
+    font-size: larger;
+    letter-spacing: 0px;
+    margin-right: 6px;
+}
+h2:after{
+    content: "--";
+    letter-spacing: 4px;
+    color: #be1622;
+    font-weight: 900;
+    font-size: larger;
+    letter-spacing: 0px;
+    margin-left: 6px;
+}
+footer{
+    background-color: var(--brown);
+    height: 200px;
+    width: 100%;}
+    
+
+   
+body {
+    padding: 0px;
+    margin: 0px;
+}

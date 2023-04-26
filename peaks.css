@@ -1,0 +1,141 @@
+#headerIMG {
+    max-height:800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    box-shadow: 2px 5px 5px 2px #4c3e34;
+    
+}
+
+/*text formating */
+p{
+    color: #4d4d4d;
+    margin-top: 2px;
+    font-family:'Pragati Narrow', sans-serif;
+    font-size: 18px;
+   
+}
+
+.introText{
+    margin: 2px;
+
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+#sideImg{
+    display: inline;
+    float: right;
+    max-width: 240px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+
+   
+}
+#tp{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+/*flex */
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+   
+
+  }
+  
+  .column {
+    flex: 33.33%;
+    
+  }
+.column img {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+}
+
+
+  
+.wrapper {
+    position: relative;
+  }
+  
+  .text {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    position: absolute;
+    top: 25;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+  }
+  .text p::before {
+    content: "//";
+    letter-spacing: 4px;
+    color: #be1622;
+    font-weight: 900;
+    font-size: larger;
+    letter-spacing: 2px;
+    margin-right: 6px;
+    margin-left: 5px;
+  }
+  .text p {
+    background: rgba(77, 77,77, 0.7);
+    width: 90%;
+    color: #fff;
+    font-family: 'Pragati Narrow', sans-serif;
+    
+    
+  }
+  .column img:hover{
+
+        opacity: 0.5;
+      
+  }
+  
+  
+ #list{
+    border: 10px black;
+    border-style: double;
+    padding: 10px;
+    background-color: white;
+    width: 20%;
+    margin: auto;
+    
+    margin-bottom: 10px;
+ }
+ #list h4{
+    margin: 0px;
+    text-align: center;
+ }
+ 
+ #list p{
+    margin: 0px;
+ }
+ #wp{
+    max-width: 220px;
+    max-height: 145px;
+    margin-top: 19px;
+ }
+ #wp:hover{
+   transform:scale(1.2);
+   border-style: solid;
+ }
+ 
+ iframe{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 40px;
+ }
+ 
