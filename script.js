@@ -17,7 +17,7 @@ function checkAnswers() {
     var answer2 = quiz.Height.value;
     //check the answer to the first question
 
-    if (answer2 =1000) {
+    if (answer2 ==1000) {
         
         score = score + 1;
     }
